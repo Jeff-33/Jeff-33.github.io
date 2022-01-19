@@ -160,6 +160,77 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/hexo%E6%8C%87%E4%BB%A4.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Jeff">
+      <meta itemprop="description" content="这是一个私人博客">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Lemonade">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/hexo%E6%8C%87%E4%BB%A4.html" class="post-title-link" itemprop="url">hexo指令</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2022-01-19 11:52:20 / 修改时间：12:02:55" itemprop="dateCreated datePublished" datetime="2022-01-19T11:52:20+08:00">2022-01-19</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/hexo/" itemprop="url" rel="index"><span itemprop="name">hexo</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="hexo-常用指令"><a href="#hexo-常用指令" class="headerlink" title="hexo 常用指令"></a>hexo 常用指令</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;name&quot;       # 新建文章</span><br><span class="line">hexo new page &quot;name&quot;  # 新建页面</span><br><span class="line">hexo g                # 生成页面</span><br><span class="line">hexo d                # 部署</span><br><span class="line">hexo g -d             # 生成页面并部署</span><br><span class="line">hexo s                # 本地预览</span><br><span class="line">hexo clean            # 清除缓存和已生成的静态文件</span><br><span class="line">hexo help             # 帮助</span><br></pre></td></tr></table></figure>
+
+<h2 id="hexo-常见问题"><a href="#hexo-常见问题" class="headerlink" title="hexo 常见问题"></a>hexo 常见问题</h2><h3 id="FATAL-can-not-read-a-block-mapping-entry解决办法"><a href="#FATAL-can-not-read-a-block-mapping-entry解决办法" class="headerlink" title="FATAL can not read a block mapping entry解决办法"></a>FATAL can not read a block mapping entry解决办法</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">出现这个问题的原因就是少了其中的空格，我们可以根据报错信息，找到对应的文件的对应的位置，然后添加空格就可以了。</span><br><span class="line">属性名+英文冒号+英文空格+属性值</span><br><span class="line">如文章开头：</span><br><span class="line">title: hexo指令</span><br><span class="line">date: 2022-01-19 11:52:20</span><br><span class="line">tags: &quot;hexo&quot;</span><br><span class="line">categories: &quot;hexo&quot;</span><br></pre></td></tr></table></figure>
+
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/%E5%A6%82%E4%BD%95%E5%B0%86%E6%9C%AC%E5%9C%B0%E9%A1%B9%E7%9B%AE%E4%B8%8A%E4%BC%A0%E5%88%B0github.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -185,7 +256,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2022-01-19 08:55:38 / 修改时间：09:22:49" itemprop="dateCreated datePublished" datetime="2022-01-19T08:55:38+08:00">2022-01-19</time>
+              <time title="创建时间：2022-01-19 08:55:38 / 修改时间：12:01:39" itemprop="dateCreated datePublished" datetime="2022-01-19T08:55:38+08:00">2022-01-19</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -208,11 +279,11 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>​     1、在本地创建一个版本库（即文件夹），通过git init把它变成Git仓库；</p>
-<p>​     2、把项目复制到这个文件夹里面，再通过git add .把项目添加到仓库；</p>
-<p>​     3、再通过git commit -m “注释内容”把项目提交到仓库；</p>
-<p>​     4、在Github上设置好SSH密钥后，新建一个远程仓库，通过git remote add origin <a href="mailto:git@github.com">git@github.com</a>:Jeff-33/potential-pancake.git将本地仓库和远程仓库进行关联；</p>
-<p>​     5、最后通过git push -u origin master把本地仓库的项目推送到远程仓库（也就是Github）上</p>
+          <p>​     1、在本地创建一个版本库（即文件夹），通过<code>git init</code>把它变成Git仓库；</p>
+<p>​     2、把项目复制到这个文件夹里面，再通过<code>git add .</code>把项目添加到仓库；</p>
+<p>​     3、再通过<code>git commit -m &quot;注释内容&quot;</code>把项目提交到仓库；</p>
+<p>​     4、在Github上设置好SSH密钥后，新建一个远程仓库，通过<code>git remote add origin git@github.com:Jeff-33/potential-pancake.git</code>将本地仓库和远程仓库进行关联；</p>
+<p>​     5、最后通过<code>git push -u origin master</code>把本地仓库的项目推送到远程仓库（也就是Github）上</p>
 
       
     </div>
@@ -474,67 +545,6 @@
   
   
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/Typora%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Jeff">
-      <meta itemprop="description" content="这是一个私人博客">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Lemonade">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/Typora%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95.html" class="post-title-link" itemprop="url">Typora基本用法</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2021-01-21 14:19:46 / 修改时间：15:35:58" itemprop="dateCreated datePublished" datetime="2021-01-21T14:19:46+08:00">2021-01-21</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="常用快捷键"><a href="#常用快捷键" class="headerlink" title="常用快捷键"></a>常用快捷键</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">Ctrl+1  一阶标题           Ctrl+B  字体加粗</span><br><span class="line">Ctrl+2  二阶标题           Ctrl+I  字体倾斜</span><br><span class="line">Ctrl+3  三阶标题           Ctrl+U  下划线</span><br><span class="line">Ctrl+4  四阶标题           Ctrl+Home   返回Typora顶部</span><br><span class="line">Ctrl+5  五阶标题           Ctrl+End    返回Typora底部</span><br><span class="line">Ctrl+6  六阶标题           Ctrl+T  创建表格</span><br><span class="line">Ctrl+L  选中某句话          Ctrl+K  创建超链接</span><br><span class="line">Ctrl+D  选中某个单词        Ctrl+F  搜索</span><br><span class="line">Ctrl+E  选中相同格式的文字   Ctrl+H  搜索并替换</span><br><span class="line">Alt+Shift+5 删除线         Ctrl+Shift+I    插入图片</span><br><span class="line">Ctrl+Shift+M    公式块     Ctrl+Shift+Q    引用</span><br><span class="line">Ctrl+Shift+K    代码块     Ctrl+Shift+L    是否显示左边框</span><br><span class="line"></span><br><span class="line">注：一些实体符号需要在实体符号之前加”\”才能够显示</span><br><span class="line">​</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">***</span><br></pre></td></tr></table></figure>
-<p>: + 英文           emoji表情<br>— + 回车         分割线<br>单引号包含<code></code>       行内代码<br>[toc] + 回车       目录</p>
-<pre><code></code></pre>
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
 
   
   <nav class="pagination">
@@ -604,20 +614,20 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">7</span>
+          <span class="site-state-item-count">8</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-count">5</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
